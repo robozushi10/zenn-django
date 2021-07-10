@@ -19,6 +19,6 @@ RUN pip install --upgrade pip==21.0.1
 COPY assets/requirements.txt .
 RUN pip install -r requirements.txt
  
-# entrypoint.sh の中で 初回の処理 (startproject, マイグレーション, createsuperuser) を実施する
+# entrypoint.sh の中で 初回の処理 (startproject, マイグレーション) を実施する
 ENTRYPOINT ["/usr/src/app/entrypoint.sh"]
 
