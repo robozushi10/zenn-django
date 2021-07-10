@@ -1,0 +1,4 @@
+django==3.0.7
+django-extensions==2.2.9
+django-filter==2.2.0
+djangorestframework==3.11.0
